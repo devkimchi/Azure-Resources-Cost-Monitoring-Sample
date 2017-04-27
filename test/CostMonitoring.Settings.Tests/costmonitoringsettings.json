@@ -1,0 +1,26 @@
+﻿{
+  "authentication": {
+    "aadLoginUrl": "https://login.microsoftonline.com",
+    "tenantId": "tenant-a",
+    "applicationId": "application-a",
+    "applicationSecret": "secret-a",
+    "redirectUrl": "https://redirecturl"
+  },
+
+  "resources": {
+    "baseUrl": "https://management.azure.com/",
+    "endpoints": [
+      {
+        "name": "Subscriptions",
+        "url": "subscriptions?api-version=2016-08-31-preview"
+      }
+    ]
+  },
+
+  "tags": {
+    "ownerEmailsKey": "OwnerEmails",
+    "TotalSpendLimitKey": "TotalSpendLimit",
+    "DailySpendLimitKey": "DailySpendLimit",
+    "OverspendActionKey": "OverspendAction"
+  }
+}
