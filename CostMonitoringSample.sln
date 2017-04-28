@@ -38,7 +38,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostMonitoring.EntityModels
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostMonitoring.Services.Tests", "test\CostMonitoring.Services.Tests\CostMonitoring.Services.Tests.csproj", "{56A933CD-7A1B-4157-AB65-3F18CD071851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostMonitoring.ConsoleApp", "src\CostMonitoring.ConsoleApp\CostMonitoring.ConsoleApp.csproj", "{3C0A598C-B031-47DC-8C10-293FAF40C32B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostMonitoring.Aggregator", "src\CostMonitoring.Aggregator\CostMonitoring.Aggregator.csproj", "{3C0A598C-B031-47DC-8C10-293FAF40C32B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

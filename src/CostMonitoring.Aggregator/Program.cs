@@ -11,7 +11,7 @@ using CostMonitoring.Services;
 using CostMonitoring.Settings;
 using CostMonitoring.Wrappers;
 
-namespace CostMonitoring.ConsoleApp
+namespace CostMonitoring.Aggregator
 {
     public class Program
     {
