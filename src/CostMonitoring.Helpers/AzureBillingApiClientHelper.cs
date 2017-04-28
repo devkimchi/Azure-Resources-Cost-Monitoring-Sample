@@ -47,9 +47,9 @@ namespace CostMonitoring.Helpers
 
             this._wrapper.SubscriptionId = subscriptionId;
 
-            var offerId = new AzureOfferId(this._settings.Billings.OfferId);
+            var offerId = new AzureOfferId(this._settings.Billing.OfferId);
 
-            var result = await this._wrapper.GetResourceCostsAsync(offerId, this._settings.Billings.Currency, this._settings.Billings.Locale, this._settings.Billings.RegionInfo, dateStart, dateEnd, AggregationGranularity.Daily, showDetails, authToken)
+            var result = await this._wrapper.GetResourceCostsAsync(offerId, this._settings.Billing.Currency, this._settings.Billing.Locale, this._settings.Billing.RegionInfo, dateStart, dateEnd, AggregationGranularity.Daily, showDetails, authToken)
                                             .ConfigureAwait(false);
 
             return result.Costs;

@@ -175,14 +175,14 @@ namespace CostMonitoring.Services
 
             foreach (var result in results)
             {
-                var totalSpendLimit = result.TotalSpendLimit.IsNullOrWhiteSpace() ? this._settings.Billings.TotalSpendLimit : Convert.ToDecimal(result.TotalSpendLimit);
-                var dailySpendLimit = result.DailySpendLimit.IsNullOrWhiteSpace() ? this._settings.Billings.DailySpendLimit : Convert.ToDecimal(result.DailySpendLimit);
-                var overspendAction = result.OverspendAction.IsNullOrWhiteSpace() ? this._settings.Billings.OverspendAction : result.OverspendAction;
+                var totalSpendLimit = result.TotalSpendLimit.IsNullOrWhiteSpace() ? this._settings.Billing.TotalSpendLimit : Convert.ToDecimal(result.TotalSpendLimit);
+                var dailySpendLimit = result.DailySpendLimit.IsNullOrWhiteSpace() ? this._settings.Billing.DailySpendLimit : Convert.ToDecimal(result.DailySpendLimit);
+                var overspendAction = result.OverspendAction.IsNullOrWhiteSpace() ? this._settings.Billing.OverspendAction : result.OverspendAction;
 
                 var record = await this._dbContext.ResourceGroupCostHistories
-                                       .SingleOrDefaultAsync(p => p.Subscription.IsEquivalentTo(subscription.DisplayName) &&
-                                                                  p.ResourceGroupName.IsEquivalentTo(result.ResourceGroupName) &&
-                                                                  p.Owners.IsEquivalentTo(result.OwnerEmails) &&
+                                       .SingleOrDefaultAsync(p => p.Subscription.Equals(subscription.DisplayName, StringComparison.CurrentCultureIgnoreCase) &&
+                                                                  p.ResourceGroupName.Equals(result.ResourceGroupName, StringComparison.CurrentCultureIgnoreCase) &&
+                                                                  p.Owners.Equals(result.OwnerEmails, StringComparison.CurrentCultureIgnoreCase) &&
                                                                   p.DateStart == result.DateStart &&
                                                                   p.DateEnd == result.DateEnd)
                                        .ConfigureAwait(false);

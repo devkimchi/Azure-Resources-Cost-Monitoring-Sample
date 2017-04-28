@@ -21,7 +21,7 @@ namespace CostMonitoring.Settings
         /// <summary>
         /// Gets or sets the <see cref="BillingSettings"/> instance.
         /// </summary>
-        BillingSettings Billings { get; set; }
+        BillingSettings Billing { get; set; }
 
         /// <summary>
         /// Gets or sets the <see cref="TagSettings"/> instance.
