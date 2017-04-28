@@ -82,6 +82,8 @@
     <Compile Include="ResourceGroupCostResult.cs" />
     <Compile Include="ResourceGroupCostResultKey.cs" />
     <Compile Include="ResourceGroupDateKey.cs" />
+    <Compile Include="ResourceGroupOwner.cs" />
+    <Compile Include="ResourceGroupOwnerKey.cs" />
     <Compile Include="Subscription.cs" />
     <Compile Include="SubscriptionPolicies.cs" />
     <Compile Include="Subscriptions.cs" />
