@@ -15,6 +15,11 @@ namespace CostMonitoring.Settings
         private bool _disposed;
 
         /// <summary>
+        /// Gets or sets the arguments.
+        /// </summary>
+        public ArgumentOptions Arguments { get; set; }
+
+        /// <summary>
         /// Gets or sets the <see cref="AuthenticationSettings"/> instance.
         /// </summary>
         public AuthenticationSettings Authentication { get; set; }

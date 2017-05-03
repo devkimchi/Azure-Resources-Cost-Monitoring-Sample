@@ -42,6 +42,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostMonitoring.Aggregator",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostMonitoring.Reminder", "src\CostMonitoring.Reminder\CostMonitoring.Reminder.csproj", "{3FBA136F-77C7-4320-9D3F-8C059DAD3ABE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostMonitoring.Functions", "src\CostMonitoring.Functions\CostMonitoring.Functions.csproj", "{C15C6DE8-0CB8-4D7B-AC05-576DF4E87E28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +102,10 @@ Global
 		{3FBA136F-77C7-4320-9D3F-8C059DAD3ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FBA136F-77C7-4320-9D3F-8C059DAD3ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FBA136F-77C7-4320-9D3F-8C059DAD3ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15C6DE8-0CB8-4D7B-AC05-576DF4E87E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15C6DE8-0CB8-4D7B-AC05-576DF4E87E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15C6DE8-0CB8-4D7B-AC05-576DF4E87E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15C6DE8-0CB8-4D7B-AC05-576DF4E87E28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,5 +124,6 @@ Global
 		{56A933CD-7A1B-4157-AB65-3F18CD071851} = {24420D01-5E85-46C3-98E4-065EEDB97407}
 		{3C0A598C-B031-47DC-8C10-293FAF40C32B} = {8671C2A5-D873-4020-9272-C65C565C61B5}
 		{3FBA136F-77C7-4320-9D3F-8C059DAD3ABE} = {8671C2A5-D873-4020-9272-C65C565C61B5}
+		{C15C6DE8-0CB8-4D7B-AC05-576DF4E87E28} = {8671C2A5-D873-4020-9272-C65C565C61B5}
 	EndGlobalSection
 EndGlobal

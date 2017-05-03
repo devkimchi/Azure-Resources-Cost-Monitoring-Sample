@@ -1,0 +1,45 @@
+﻿{
+  "arguments": {
+    "from": "",
+    "to": "",
+    "retro": 7,
+    "duration": 7,
+    "entire": false,
+    "threshold": 0.9
+  },
+
+  "authentication": {
+    "aadLoginUrl": "https://login.microsoftonline.com",
+    "tenantId": "",
+    "applicationId": "",
+    "applicationSecret": "",
+    "redirectUrl": ""
+  },
+
+  "resources": {
+    "baseUrl": "https://management.azure.com/",
+    "endpoints": [
+      {
+        "name": "Subscriptions",
+        "url": "subscriptions?api-version=2016-08-31-preview"
+      }
+    ]
+  },
+
+  "billing": {
+    "offerId": 17,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "regionInfo": "AU",
+    "defaultTotalSpendLimit": 100.00,
+    "defaultDailySpendLimit": 10.00,
+    "defaultOverspendAction": "Alert"
+  },
+
+  "tags": {
+    "ownerEmailsKey": "OwnerEmails",
+    "TotalSpendLimitKey": "TotalSpendLimit",
+    "DailySpendLimitKey": "DailySpendLimit",
+    "OverspendActionKey": "OverspendAction"
+  }
+}

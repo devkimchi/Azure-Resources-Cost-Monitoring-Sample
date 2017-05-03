@@ -9,6 +9,11 @@ namespace CostMonitoring.Settings
     public interface ICostMonitoringSettings : IDisposable
     {
         /// <summary>
+        /// Gets or sets the arguments.
+        /// </summary>
+        ArgumentOptions Arguments { get; set; }
+
+        /// <summary>
         /// Gets or sets the <see cref="AuthenticationSettings"/> instance.
         /// </summary>
         AuthenticationSettings Authentication { get; set; }

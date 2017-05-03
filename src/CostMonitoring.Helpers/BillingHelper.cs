@@ -2,6 +2,7 @@
 
 using CostMonitoring.Extensions;
 using CostMonitoring.Models;
+using CostMonitoring.Settings;
 
 namespace CostMonitoring.Helpers
 {

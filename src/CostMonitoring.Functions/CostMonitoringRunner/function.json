@@ -1,0 +1,14 @@
+{
+  "scriptFile": "..\\bin\\CostMonitoring.Functions.dll",
+  "entryPoint": "CostMonitoring.Functions.CostMonitoringRunner.Run",
+
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 10 0 * * *"
+    }
+  ],
+  "disabled": false
+}

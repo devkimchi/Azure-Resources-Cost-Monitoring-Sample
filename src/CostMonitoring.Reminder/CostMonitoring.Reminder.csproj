@@ -65,6 +65,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
+    <None Include="run.cmd" />
+    <None Include="settings.job" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CostMonitoring.EntityModels\CostMonitoring.EntityModels.csproj">
