@@ -8,7 +8,7 @@ This provides sample applications using Azure WebJobs and Azure Functions to mon
 * 한국어
   * [나는 얼마나 애저 클라우드 리소스를 사용했을까?](http://blog.aliencube.org/ko/2017/05/04/know-your-cloud-resource-costs-on-azure/)
 * English
-  * [Know Your Cloud Resource Costs on Azure](#)
+  * [Know Your Cloud Resource Costs on Azure](https://blog.kloud.com.au/2017/05/05/know-your-cloud-resource-costs-on-azure/)
 
 
 ## Contributions ##
